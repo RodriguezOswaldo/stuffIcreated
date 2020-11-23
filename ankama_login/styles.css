@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+/* 
+ Variables
+*/
 :root{
     --dark: #29261f;
     --creme: #d5d0aa;
@@ -9,11 +12,7 @@
     --kindOfGray : #bbb9a9;
     --lighter: #d5d0aa;
     --sixthColor: #fa6500;
-
 }
-/* 
- Variables
-*/
 html{
     background-color: var(--dark);
 }
