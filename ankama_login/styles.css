@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --dark: #29261f;
+    --creme: #d5d0aa;
+    --light: #eee8d8;
+    --kindOfGray : #bbb9a9;
+    --lighter: #d5d0aa;
+    --sixthColor: #fa6500;
+
+}
+/* 
+ Variables
+*/
+html{
+    background-color: var(--dark);
+}
