@@ -22,7 +22,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
 }
-.section1, .section2{
+.section{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -31,6 +31,7 @@ body {
     border-radius: 5% 5% 10% 10%;
     width: 45%;
     margin: 10px;
+    box-shadow: #1412 2px 2px 2px 3px;
 }
 .box-container{
     display: flex;
