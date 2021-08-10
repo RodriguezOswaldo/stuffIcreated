@@ -47,7 +47,6 @@ body {
     margin:5px;
     border-radius: 10%;
     align-items: center;
-
 }
 .little-box{
     display: flex;
@@ -69,7 +68,7 @@ body {
     color: #445566;
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 500px){
     .sections{
         flex-wrap: wrap;
         text-align: center;
