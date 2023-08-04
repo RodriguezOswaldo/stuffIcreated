@@ -1,30 +1,37 @@
-html{
-    margin:0;
-    padding:0;
+html {
+    margin: 0;
+    padding: 0;
 }
+
 body {
     background: #445566;
     font-size: 15px;
-    color: antiquewhite;
-
+    color: hsla(26, 86%, 46%, 0.75)
 }
-.container{
+
+.container {
     background: #bbb9a9;
     height: 100vh;
     width: 100vm;
     margin: 0 5%;
-    text-align:center;
+    text-align: center;
 }
-.first-box{
+
+.header {
     padding: 1%;
     font-size: 1.2em;
+    background-color: gray;
 }
-.sections{
+
+.sections {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    flex-grow: 3;
     justify-content: space-around;
 }
-.section{
+
+.section {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -35,86 +42,107 @@ body {
     margin: 10px;
     box-shadow: #1412 2px 2px 2px 3px;
 }
-.box-container{
+
+.box-container {
     display: flex;
     justify-content: space-evenly;
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 3px;
-    width:40%;
-    height:120px;
+    width: 40%;
+    height: 120px;
     background: #81961a;
-    margin:5px;
+    margin: 5px;
     border-radius: 10%;
     align-items: center;
 }
-.little-box{
+
+.little-box {
     display: flex;
-    padding: 5px   ;
+    padding: 5px;
     height: 20px;
     background: #fa6500;
 }
-.box:first-child{
+
+.box:first-child {
     justify-content: flex-end;
 }
-.box:nth-child(2){
-    justify-content:flex-start;
+
+.box:nth-child(2) {
+    justify-content: flex-start;
 }
-.box:nth-child(3){
-    justify-content:space-around;
+
+.box:nth-child(3) {
+    justify-content: space-around;
 }
-.little-box:focus{
+
+.little-box:focus {
     background: #fa6500;
     color: #445566;
 }
-.box2{
-    background:  #445566;
+
+.box2 {
+    background: #445566;
     padding: 20px;
     padding-bottom: 10px;
     outline: 2px dashed antiquewhite;
     outline-offset: -12px;
 }
-.box2 p{
+
+.box2 p {
     margin: 0;
-    line-height:1.3;
+    line-height: 1.3;
 }
-.name{
+
+.name {
     padding: 20px;
 }
-.name h1, h3 {
+
+.name h1,
+h3 {
     margin: 0;
 }
-.box2:after{
+
+.box2:after {
     content: "♥";
-    background:red;
+    background: red;
     position: relative;
     width: 120px;
-    height:120px;
+    height: 120px;
     z-index: -1;
 }
-ul li{
+
+ul li {
     list-style: none;
     text-align: center;
 
 }
-@media only screen and (max-width: 800px){
-    .sections{
+
+@media only screen and (max-width: 800px) {
+    .sections {
         flex-wrap: wrap;
         text-align: center;
     }
-    .section1, .section2, .section3{
+
+    .section1,
+    .section2,
+    .section3 {
         width: 100%;
     }
 }
-@media only screen and (max-width: 500px){
-    .sections{
+
+@media only screen and (max-width: 500px) {
+    .sections {
         flex-wrap: wrap;
         text-align: center;
     }
-    .section1, .section2{
+
+    .section1,
+    .section2 {
         width: 100%;
     }
 }
