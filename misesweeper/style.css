@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    height:400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(1, 220, 154);
+}
+.grid  div{
+    height: 40px;
+    width: 40px;
+}
+.bomb{
+    background-image: 🎃;
+    /* background-color: rgb(13, 14, 15); */
+}
+.free{
+    background-image:🛫 ;
+}
+.checked{
+    background-color: gainsboro;
+}
+/* .bomb, .free{
+    border: 1px solid black;
+} */
